@@ -3,7 +3,7 @@ declare(strict_types=1);
 require_once __DIR__ . '/app/bootstrap.php';
 $v = htmlspecialchars(vibe_version());
 ?>
-<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"><title>Vibe Mundo Virtual</title><link rel="stylesheet" href="assets/css/world.css?v=<?= $v ?>"></head><body>
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"><title>Vibe Mundo Virtual</title><link rel="stylesheet" href="assets/css/world.css?v=<?= $v ?>"><link rel="stylesheet" href="assets/css/world3d.css?v=<?= $v ?>"></head><body>
 <main class="game">
 <header class="hud"><div class="profile"><div class="portrait">🧑🏻</div><div><strong>Semplicio</strong><small>Nível 1</small><div class="xp"><i></i><span>120 / 500 XP</span></div></div></div><div class="wallet"><b>🪙 50</b><b>💎 0</b><b>＋</b></div><nav><button id="inventoryBtn">🎒<span>Inventário</span></button><button id="avatarBtn">🧑<span>Avatar</span></button><button id="missionsBtn">📜<span>Missões</span></button><button id="rankingBtn">🏆<span>Ranking</span></button><button>🗺️<span>Mapa</span></button><button>🏪<span>Loja Virtual</span></button></nav></header>
 <section class="viewport mode-3d" id="scene" tabindex="0" aria-label="Praça Central 3D do Mundo Virtual">
