@@ -1,17 +1,17 @@
 {
-  "version": "0.7.0",
+  "version": "0.8.0",
   "name": "Vibe Mundo Virtual",
   "channel": "stable",
   "minimum_php": "8.1",
   "released_at": "2026-09-16",
   "notes": [
-    "Acabamento visual adicional no ambiente WebGL 3D",
-    "Melhoria de saturação, contraste, profundidade e integração visual do cenário",
-    "Novo feedback visual do cursor e do ponto de interação no mundo",
-    "HUD recebeu transparência, desfoque e acabamento mais próximo de interface de jogo",
-    "Adicionada detecção de WebGL para avisar quando a aceleração 3D estiver indisponível",
-    "Criada estrutura oficial assets/models para personagens, prédios, ambiente e itens GLB/GLTF",
-    "Mantido o motor A* da v0.6.0 para locomoção e desvio de obstáculos",
-    "A praça procedural continua como fallback enquanto os assets 3D definitivos são introduzidos"
+    "Primeiro avatar humano 3D articulado integrado ao Mundo Virtual",
+    "Animações Idle e Walk com transição suave durante a locomoção",
+    "Avatar gira para a direção real do percurso calculado pelo A*",
+    "Mantido desvio inteligente de lojas, fonte, árvores, bancos, postes e NPCs",
+    "Praça ampliada e refinada com iluminação, sombras, água da fonte e fachadas mais detalhadas",
+    "Estrutura preparada para substituir o avatar temporário por modelo GLB próprio da Vibe",
+    "Fallback automático mantém o mundo funcional caso o modelo 3D externo não carregue",
+    "Próxima etapa: avatar próprio personalizável, NPCs animados e assets GLB locais"
   ]
 }
