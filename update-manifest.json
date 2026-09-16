@@ -1,14 +1,18 @@
 {
-  "version":"0.18.1",
+  "version":"0.19.0",
   "name":"Vibe Mundo Virtual",
   "channel":"stable",
   "minimum_php":"8.1",
   "released_at":"2026-09-16",
+  "cache_bust":"0.19.0-1747",
   "notes":[
-    "HOTFIX: restaura integralmente a base visual estável da v0.17 após regressão visual observada na v0.18",
-    "Recupera fonte monumental, jardins, pavimentação, arquitetura, boulevard, iluminação e composição que estavam presentes antes da atualização problemática",
-    "Mantém as correções de colisão física e pathfinding A* existentes na base estável",
-    "A reconstrução dos bancos da v0.18 foi retirada temporariamente para impedir que uma alteração de mobiliário afete o restante da praça",
-    "Próximas alterações visuais serão isoladas e validadas sem substituir a composição estável do cenário"
+    "Evolução segura construída sobre a base visual restaurada e estável",
+    "Preservados fonte monumental, jardins, pavimentação, fachadas, boulevard, iluminação e NPCs",
+    "Removidos somente os bancos centrais problemáticos sem substituir ou reconstruir o restante do cenário",
+    "Bancos da fonte reconstruídos como quatro módulos compactos, limpos e tangenciais ao jardim",
+    "Eliminadas sobreposições e o aspecto serrilhado dos bancos segmentados",
+    "Frente da fonte mantida livre para circulação do avatar",
+    "NPC leitor reposicionado sobre o novo mobiliário",
+    "Mantidos pathfinding A*, colisões físicas e raio do avatar"
   ]
 }
