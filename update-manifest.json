@@ -1,14 +1,15 @@
 {
-  "version": "0.8.1",
+  "version": "0.9.0",
   "name": "Vibe Mundo Virtual",
   "channel": "stable",
   "minimum_php": "8.1",
   "released_at": "2026-09-16",
   "notes": [
-    "Hotfix do carregamento do Mundo Virtual 3D após a v0.8.0",
-    "Corrigida resolução do módulo Three.js exigido pelo GLTFLoader",
-    "Adicionado import map para manter Three.js e GLTFLoader na mesma instância",
-    "Mantidos avatar humano animado, A* e todos os elementos da praça 3D",
-    "Mensagem de inicialização ajustada para facilitar diagnóstico de carregamento"
+    "Corrigida a orientação do avatar humano: agora ele olha para a direção real da caminhada",
+    "Mantidas animações Idle e Walk e transições durante a locomoção",
+    "Mantido pathfinding A* com desvio inteligente de obstáculos",
+    "Novo carregador do motor 3D permite aplicar correções sem duplicar toda a base estável",
+    "Céu e neblina receberam ajuste inicial para melhorar profundidade e leitura do cenário",
+    "Preparação da próxima etapa de assets GLB locais e avatar Vibe personalizável"
   ]
 }
