@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "name": "Vibe Mundo Virtual",
+  "channel": "stable",
+  "minimum_php": "8.1",
+  "released_at": "2026-09-16",
+  "notes": [
+    "Base inicial do Mundo Virtual",
+    "Estrutura preparada para atualização pelo GitHub",
+    "Painel Super Admin com verificação e instalação manual",
+    "Backup automático antes da instalação"
+  ]
+}
