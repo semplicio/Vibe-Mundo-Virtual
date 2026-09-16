@@ -1,18 +1,18 @@
 {
-  "version":"0.14.0",
+  "version":"0.15.0",
   "name":"Vibe Mundo Virtual",
   "channel":"stable",
   "minimum_php":"8.1",
   "released_at":"2026-09-16",
   "notes":[
-    "Praça Central recebeu pavimentação 3D em paralelepípedos individuais com irregularidades para aparência antiga",
-    "Adicionadas juntas escuras entre as pedras para aumentar profundidade e realismo do piso",
-    "Criadas calçadas perimetrais, meio-fio e faixas de acabamento em pedra",
-    "Adicionados caminhos de pedra conectando o núcleo da praça ao eixo comercial",
-    "Bancos retos foram complementados por quatro módulos de bancos curvos planejados ao redor da fonte",
-    "Bancos curvos acompanham o desenho circular da fonte e mantêm acessos livres entre os módulos",
-    "Adicionada borda de pedras ao jardim circular da fonte",
-    "Mantidos fonte monumental animada, água em movimento, vegetação 3D, NPC leitor, avatar e pathfinding A*",
-    "As imagens enviadas pelo usuário continuam sendo usadas somente como referência visual; nenhuma imagem foi incorporada como cenário"
+    "Evolução arquitetônica baseada diretamente na nova referência visual enviada pelo usuário",
+    "Portal VYBE B&S reconstruído como entrada monumental com colunas, arco, placa e bandeiras",
+    "Criadas fachadas comerciais maiores com pavimentos superiores e composição urbana mais densa",
+    "Lojas receberam vitrines iluminadas, toldos, janelas superiores e sacadas",
+    "Sacadas receberam floreiras, vegetação e flores 3D para aproximar o boulevard da referência",
+    "Adicionados postes clássicos com iluminação quente distribuídos pela praça e eixo comercial",
+    "Adicionadas topiarias e vasos próximos às fachadas para reduzir áreas vazias",
+    "Mantidos paralelepípedos históricos, calçadas, fonte animada, bancos curvos, jardins, NPC leitor, A* e movimentação suave",
+    "A imagem fornecida permanece apenas como referência; o cenário continua sendo construído com objetos 3D independentes"
   ]
 }
