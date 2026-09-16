@@ -1,18 +1,16 @@
 {
-  "version":"0.15.0",
+  "version":"0.16.0",
   "name":"Vibe Mundo Virtual",
   "channel":"stable",
   "minimum_php":"8.1",
   "released_at":"2026-09-16",
   "notes":[
-    "Evolução arquitetônica baseada diretamente na nova referência visual enviada pelo usuário",
-    "Portal VYBE B&S reconstruído como entrada monumental com colunas, arco, placa e bandeiras",
-    "Criadas fachadas comerciais maiores com pavimentos superiores e composição urbana mais densa",
-    "Lojas receberam vitrines iluminadas, toldos, janelas superiores e sacadas",
-    "Sacadas receberam floreiras, vegetação e flores 3D para aproximar o boulevard da referência",
-    "Adicionados postes clássicos com iluminação quente distribuídos pela praça e eixo comercial",
-    "Adicionadas topiarias e vasos próximos às fachadas para reduzir áreas vazias",
-    "Mantidos paralelepípedos históricos, calçadas, fonte animada, bancos curvos, jardins, NPC leitor, A* e movimentação suave",
-    "A imagem fornecida permanece apenas como referência; o cenário continua sendo construído com objetos 3D independentes"
+    "Corrigido o principal problema identificado na captura: novos objetos visuais agora registram colisões no mesmo sistema usado pelo pathfinding A*",
+    "Avatar passa a contornar fonte e jardim, bancos curvos, postes, vasos, topiarias, jardineiras, fachadas e colunas do portal em vez de atravessá-los",
+    "Portal mantém abertura central transitável e somente as colunas são tratadas como obstáculos",
+    "Criadas jardineiras tridimensionais adicionais com pedra, arbustos e flores para aproximar a densidade visual da referência",
+    "Adicionados balizadores de pedra ao redor da área central para reforçar o acabamento urbano antigo",
+    "Mantidos paralelepípedos, calçadas, fonte animada, água, bancos, NPC leitor, boulevard e arquitetura v0.15",
+    "Imagens fornecidas continuam sendo usadas exclusivamente como referência visual para evolução do código 3D"
   ]
 }
