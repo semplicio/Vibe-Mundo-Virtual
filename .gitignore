@@ -1,0 +1,11 @@
+/config/config.php
+/config/superadmin.local.php
+/storage/backups/*
+!/storage/backups/.gitkeep
+/storage/logs/*
+!/storage/logs/.gitkeep
+/storage/update/*
+!/storage/update/.gitkeep
+/uploads/*
+.env
+.DS_Store
