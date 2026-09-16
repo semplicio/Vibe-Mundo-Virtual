@@ -1,18 +1,18 @@
 {
-  "version": "0.10.0",
+  "version": "0.11.0",
   "name": "Vibe Mundo Virtual",
   "channel": "stable",
   "minimum_php": "8.1",
   "released_at": "2026-09-16",
   "notes": [
-    "Evolução visual da Praça Central mantendo o motor 3D e o A* estabilizados",
-    "Mantida correção da orientação do avatar para caminhar olhando para frente",
-    "Adicionado portal Vibe B&S como marco visual da cidade",
-    "Adicionadas placas 3D legíveis para Tech World, Loja JP, Vibe Fashion e Vibe Style",
-    "Novos canteiros, flores, vasos e vegetação urbana em 3D",
-    "Novo anel de acabamento ao redor da fonte central",
-    "Ajustados céu, neblina, exposição, profundidade e iluminação da praça",
-    "Elementos novos não alteram a malha de colisão para preservar a locomoção existente",
-    "Base preparada para a próxima substituição por modelos GLB locais de maior qualidade"
+    "Primeira versão funcional do sistema de personalização do Avatar Vibe",
+    "Botão Avatar agora abre o editor visual dentro do Mundo Virtual",
+    "Seleção de cor de pele, cabelo, camiseta, calça e tênis",
+    "Opção inicial de boné como acessório equipável",
+    "Pré-visualização instantânea das alterações do personagem",
+    "Visual escolhido é salvo localmente no dispositivo do usuário",
+    "Mantidos Praça Central 3D v0.10, portal Vibe B&S, lojas, A*, animações e correção de orientação",
+    "Estrutura criada para futuramente vincular roupas e acessórios aos produtos virtuais comprados nas lojas",
+    "Próxima etapa: refletir personalização no personagem 3D e iniciar inventário/equipamentos"
   ]
 }
