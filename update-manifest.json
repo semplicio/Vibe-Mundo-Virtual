@@ -1,15 +1,19 @@
 {
-  "version": "0.2.1",
+  "version": "0.3.0",
   "name": "Vibe Mundo Virtual",
   "channel": "stable",
   "minimum_php": "8.1",
   "released_at": "2026-09-16",
   "notes": [
-    "Movimentação do avatar por clique ou toque no mapa",
-    "Animação de caminhada até o destino selecionado",
-    "Indicador visual no ponto de destino",
-    "Praça reformulada com referência visual de cidade RPG",
-    "Lojas com fachadas mais próximas do conceito do Mundo Virtual",
-    "Movimentação por WASD e setas mantida"
+    "Nova Praça Central em estilo RPG claro e mais próxima da referência visual",
+    "Mapa ampliado para 1800x1100 pixels",
+    "Câmera acompanha o avatar durante a exploração",
+    "Click-to-move refeito usando coordenadas reais do mundo",
+    "Movimentação por toque, WASD e setas",
+    "Fonte, jardins, bancos, postes, árvores e NPCs iniciais",
+    "Fachadas próprias para Tech World, Loja JP, Vibe Fashion e Vibe Style",
+    "HUD com perfil, XP, moedas, atalhos, minimapa e missões",
+    "Cache-busting automático de CSS e JavaScript usando a versão do sistema",
+    "Atalho para o Super Admin no rodapé"
   ]
 }
