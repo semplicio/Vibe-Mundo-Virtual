@@ -1,13 +1,15 @@
 {
-  "version": "0.2.0",
+  "version": "0.2.1",
   "name": "Vibe Mundo Virtual",
   "channel": "stable",
   "minimum_php": "8.1",
   "released_at": "2026-09-16",
   "notes": [
-    "Base inicial do Mundo Virtual",
-    "Estrutura preparada para atualização pelo GitHub",
-    "Painel Super Admin com verificação e instalação manual",
-    "Backup automático antes da instalação"
+    "Movimentação do avatar por clique ou toque no mapa",
+    "Animação de caminhada até o destino selecionado",
+    "Indicador visual no ponto de destino",
+    "Praça reformulada com referência visual de cidade RPG",
+    "Lojas com fachadas mais próximas do conceito do Mundo Virtual",
+    "Movimentação por WASD e setas mantida"
   ]
 }
