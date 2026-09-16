@@ -1,15 +1,18 @@
 {
-  "version": "0.9.0",
+  "version": "0.10.0",
   "name": "Vibe Mundo Virtual",
   "channel": "stable",
   "minimum_php": "8.1",
   "released_at": "2026-09-16",
   "notes": [
-    "Corrigida a orientação do avatar humano: agora ele olha para a direção real da caminhada",
-    "Mantidas animações Idle e Walk e transições durante a locomoção",
-    "Mantido pathfinding A* com desvio inteligente de obstáculos",
-    "Novo carregador do motor 3D permite aplicar correções sem duplicar toda a base estável",
-    "Céu e neblina receberam ajuste inicial para melhorar profundidade e leitura do cenário",
-    "Preparação da próxima etapa de assets GLB locais e avatar Vibe personalizável"
+    "Evolução visual da Praça Central mantendo o motor 3D e o A* estabilizados",
+    "Mantida correção da orientação do avatar para caminhar olhando para frente",
+    "Adicionado portal Vibe B&S como marco visual da cidade",
+    "Adicionadas placas 3D legíveis para Tech World, Loja JP, Vibe Fashion e Vibe Style",
+    "Novos canteiros, flores, vasos e vegetação urbana em 3D",
+    "Novo anel de acabamento ao redor da fonte central",
+    "Ajustados céu, neblina, exposição, profundidade e iluminação da praça",
+    "Elementos novos não alteram a malha de colisão para preservar a locomoção existente",
+    "Base preparada para a próxima substituição por modelos GLB locais de maior qualidade"
   ]
 }
