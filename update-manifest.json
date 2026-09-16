@@ -1,16 +1,14 @@
 {
-  "version":"0.17.0",
+  "version":"0.18.1",
   "name":"Vibe Mundo Virtual",
   "channel":"stable",
   "minimum_php":"8.1",
   "released_at":"2026-09-16",
   "notes":[
-    "Corrigida colisão usando raio físico do avatar, evitando que o corpo atravesse objetos mesmo quando o ponto central ainda estaria livre",
-    "Reforçadas colisões de bancos, jardins, postes, NPCs e elementos urbanos",
-    "Removidas as gerações anteriores de bancos que estavam sobrepostas e mal posicionadas",
-    "Bancos da fonte reconstruídos em módulos curvos organizados, acompanhando o círculo e deixando a frente livre para circulação",
-    "NPC leitor reposicionado de acordo com o novo mobiliário e registrado como obstáculo físico",
-    "Jardim circular passou a possuir colisões distribuídas ao longo da vegetação para impedir atalhos através dos arbustos",
-    "Mantidos A*, rotação suave, fonte animada, paralelepípedos, boulevard e arquitetura existentes"
+    "HOTFIX: restaura integralmente a base visual estável da v0.17 após regressão visual observada na v0.18",
+    "Recupera fonte monumental, jardins, pavimentação, arquitetura, boulevard, iluminação e composição que estavam presentes antes da atualização problemática",
+    "Mantém as correções de colisão física e pathfinding A* existentes na base estável",
+    "A reconstrução dos bancos da v0.18 foi retirada temporariamente para impedir que uma alteração de mobiliário afete o restante da praça",
+    "Próximas alterações visuais serão isoladas e validadas sem substituir a composição estável do cenário"
   ]
 }
