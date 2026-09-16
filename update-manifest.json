@@ -1,19 +1,17 @@
 {
-  "version": "0.6.0",
+  "version": "0.7.0",
   "name": "Vibe Mundo Virtual",
   "channel": "stable",
   "minimum_php": "8.1",
   "released_at": "2026-09-16",
   "notes": [
-    "Correção estrutural da locomoção: o motor 2D anterior foi substituído no mapa principal",
-    "Primeira versão do Mundo Virtual renderizada em WebGL 3D real com Three.js",
-    "Câmera 3D elevada acompanha o avatar durante a caminhada",
-    "Clique no piso 3D usa raycasting para definir o destino correto no mundo",
-    "Pathfinding A* foi refeito em coordenadas 3D e desvia de lojas, fonte, árvores, bancos, postes e NPCs",
-    "O destino ocupado é ajustado para a célula livre mais próxima, evitando o travamento observado na versão 0.5.0",
-    "Lojas agora são construções 3D com volume, pavimento superior, vitrines e toldos",
-    "Fonte, árvores, bancos, postes, NPCs e avatar passaram a usar geometria 3D com iluminação e sombras",
-    "Mantidos HUD, missões, minimapa, chat, interação com lojas e controles WASD",
-    "A arquitetura está preparada para substituir os modelos procedurais por arquivos GLB/GLTF de maior qualidade nas próximas versões"
+    "Acabamento visual adicional no ambiente WebGL 3D",
+    "Melhoria de saturação, contraste, profundidade e integração visual do cenário",
+    "Novo feedback visual do cursor e do ponto de interação no mundo",
+    "HUD recebeu transparência, desfoque e acabamento mais próximo de interface de jogo",
+    "Adicionada detecção de WebGL para avisar quando a aceleração 3D estiver indisponível",
+    "Criada estrutura oficial assets/models para personagens, prédios, ambiente e itens GLB/GLTF",
+    "Mantido o motor A* da v0.6.0 para locomoção e desvio de obstáculos",
+    "A praça procedural continua como fallback enquanto os assets 3D definitivos são introduzidos"
   ]
 }
