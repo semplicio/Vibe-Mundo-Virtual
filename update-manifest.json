@@ -1,17 +1,14 @@
 {
-  "version": "0.8.0",
+  "version": "0.8.1",
   "name": "Vibe Mundo Virtual",
   "channel": "stable",
   "minimum_php": "8.1",
   "released_at": "2026-09-16",
   "notes": [
-    "Primeiro avatar humano 3D articulado integrado ao Mundo Virtual",
-    "Animações Idle e Walk com transição suave durante a locomoção",
-    "Avatar gira para a direção real do percurso calculado pelo A*",
-    "Mantido desvio inteligente de lojas, fonte, árvores, bancos, postes e NPCs",
-    "Praça ampliada e refinada com iluminação, sombras, água da fonte e fachadas mais detalhadas",
-    "Estrutura preparada para substituir o avatar temporário por modelo GLB próprio da Vibe",
-    "Fallback automático mantém o mundo funcional caso o modelo 3D externo não carregue",
-    "Próxima etapa: avatar próprio personalizável, NPCs animados e assets GLB locais"
+    "Hotfix do carregamento do Mundo Virtual 3D após a v0.8.0",
+    "Corrigida resolução do módulo Three.js exigido pelo GLTFLoader",
+    "Adicionado import map para manter Three.js e GLTFLoader na mesma instância",
+    "Mantidos avatar humano animado, A* e todos os elementos da praça 3D",
+    "Mensagem de inicialização ajustada para facilitar diagnóstico de carregamento"
   ]
 }
