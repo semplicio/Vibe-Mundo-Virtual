@@ -1,17 +1,18 @@
 {
-  "version": "0.4.1",
+  "version": "0.5.0",
   "name": "Vibe Mundo Virtual",
   "channel": "stable",
   "minimum_php": "8.1",
   "released_at": "2026-09-16",
   "notes": [
-    "Novo sistema de pathfinding A* para locomoção inteligente",
-    "Avatar contorna pessoas, prédios, fonte, jardins, árvores, bancos e postes",
-    "Clique define o destino e o sistema calcula uma rota livre até ele",
-    "Movimento diagonal com prevenção de corte através dos cantos dos obstáculos",
-    "Se o caminho ficar bloqueado durante a caminhada, a rota é recalculada automaticamente",
-    "Quando o ponto clicado estiver ocupado, o sistema procura o ponto livre mais próximo",
-    "Clique nas lojas continua levando o avatar até a área de entrada",
-    "WASD e setas permanecem disponíveis com colisões"
+    "Primeira reconstrução visual da Praça Central baseada na referência 3D aprovada",
+    "Fachadas maiores com pavimento superior, vitrines, toldos e identidade individual",
+    "Portal Vibe B&S adicionado ao eixo central da cidade",
+    "Fonte central ampliada e transformada em marco visual da praça",
+    "Novo HUD com perfil, moedas, diamantes, inventário, avatar, missões, ranking, mapa e loja virtual",
+    "Minimapa circular, painel de missões, diálogo de NPC e protótipo visual do chat",
+    "Mais NPCs e elementos urbanos para dar sensação de cidade viva",
+    "Mantido pathfinding A* com desvio de obstáculos e movimentação por clique/toque",
+    "Esta etapa usa HTML/CSS em pseudo-3D; assets 3D reais serão introduzidos progressivamente nas próximas versões"
   ]
 }
