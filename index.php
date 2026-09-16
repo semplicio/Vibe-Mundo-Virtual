@@ -17,4 +17,4 @@ $v = htmlspecialchars(vibe_version());
 <aside class="shop-panel" id="shopPanel" hidden><div class="panel-head"><div><h2 id="shopTitle">Loja</h2><p>Vitrine da loja</p></div><button id="closeShop">Voltar à praça</button></div><div class="products" id="products"></div></aside>
 </section>
 <footer><span id="status">Carregando ambiente 3D...</span><a href="superadmin/updates.php">Super Admin</a></footer>
-</main><script type="module" src="assets/js/world3d.js?v=<?= $v ?>"></script></body></html>
+</main><script type="module" src="assets/js/world3d.js?v=<?= $v ?>"></script><script type="module" src="assets/js/world3d-polish.js?v=<?= $v ?>"></script></body></html>
