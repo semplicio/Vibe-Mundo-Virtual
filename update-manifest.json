@@ -1,18 +1,18 @@
 {
-  "version":"0.13.0",
+  "version":"0.14.0",
   "name":"Vibe Mundo Virtual",
   "channel":"stable",
   "minimum_php":"8.1",
   "released_at":"2026-09-16",
   "notes":[
-    "Fonte central reconstruída como marco monumental 3D inspirado na referência aprovada",
-    "Fonte agora possui duas bacias, coluna central, globo armilar metálico e placa VYBE B&S Mundo Virtual",
-    "Água recebeu jatos 3D em arco, jatos superiores, gotas animadas e variação visual contínua",
-    "Vegetação ao redor da fonte ganhou maior densidade com arbustos e flores tridimensionais",
-    "Adicionados quatro bancos ornamentais ao redor da fonte",
-    "Adicionado NPC sentado lendo um livro com animação de página sendo folheada",
-    "Avatar agora gira progressivamente nas mudanças de direção, reduzindo movimentos bruscos de robô",
-    "Mantidos pathfinding A*, desvio de obstáculos, lojas, personalização e HUD existentes",
-    "Imagem de referência continua sendo apenas guia visual; os novos elementos são objetos 3D independentes"
+    "Praça Central recebeu pavimentação 3D em paralelepípedos individuais com irregularidades para aparência antiga",
+    "Adicionadas juntas escuras entre as pedras para aumentar profundidade e realismo do piso",
+    "Criadas calçadas perimetrais, meio-fio e faixas de acabamento em pedra",
+    "Adicionados caminhos de pedra conectando o núcleo da praça ao eixo comercial",
+    "Bancos retos foram complementados por quatro módulos de bancos curvos planejados ao redor da fonte",
+    "Bancos curvos acompanham o desenho circular da fonte e mantêm acessos livres entre os módulos",
+    "Adicionada borda de pedras ao jardim circular da fonte",
+    "Mantidos fonte monumental animada, água em movimento, vegetação 3D, NPC leitor, avatar e pathfinding A*",
+    "As imagens enviadas pelo usuário continuam sendo usadas somente como referência visual; nenhuma imagem foi incorporada como cenário"
   ]
 }
