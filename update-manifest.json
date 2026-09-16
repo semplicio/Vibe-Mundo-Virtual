@@ -1,18 +1,18 @@
 {
-  "version":"0.12.0",
+  "version":"0.13.0",
   "name":"Vibe Mundo Virtual",
   "channel":"stable",
   "minimum_php":"8.1",
   "released_at":"2026-09-16",
   "notes":[
-    "Referência visual aprovada passa a orientar oficialmente a evolução da Praça Central",
-    "Praça central recebeu piso circular e anéis ornamentais mais sofisticados",
-    "Novos canteiros elevados, arbustos, flores, vasos e mobiliário urbano aumentam a densidade visual",
-    "Adicionados totens urbanos e iluminação quente complementar próxima às vitrines",
-    "Céu, névoa e atmosfera foram ajustados para uma aparência mais clara e cinematográfica",
-    "Mantidos avatar animado, personalização, lojas, clique para caminhar e pathfinding A*",
-    "Motor 3D agora publica uma interface interna para permitir evolução incremental do cenário sem reescrever a navegação",
-    "A imagem de referência não é usada como fundo: os elementos continuam sendo objetos 3D reais e independentes",
-    "Próximas etapas: fachadas arquitetônicas mais detalhadas, vitrines reais, NPCs 3D aprimorados e suavização das curvas do avatar"
+    "Fonte central reconstruída como marco monumental 3D inspirado na referência aprovada",
+    "Fonte agora possui duas bacias, coluna central, globo armilar metálico e placa VYBE B&S Mundo Virtual",
+    "Água recebeu jatos 3D em arco, jatos superiores, gotas animadas e variação visual contínua",
+    "Vegetação ao redor da fonte ganhou maior densidade com arbustos e flores tridimensionais",
+    "Adicionados quatro bancos ornamentais ao redor da fonte",
+    "Adicionado NPC sentado lendo um livro com animação de página sendo folheada",
+    "Avatar agora gira progressivamente nas mudanças de direção, reduzindo movimentos bruscos de robô",
+    "Mantidos pathfinding A*, desvio de obstáculos, lojas, personalização e HUD existentes",
+    "Imagem de referência continua sendo apenas guia visual; os novos elementos são objetos 3D independentes"
   ]
 }
