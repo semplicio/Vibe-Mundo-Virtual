@@ -1,18 +1,18 @@
 {
-  "version":"0.20.0",
+  "version":"0.21.0",
   "name":"Vibe Mundo Virtual",
   "channel":"stable",
   "minimum_php":"8.1",
-  "released_at":"2026-09-16",
-  "cache_bust":"0.20.0-1750",
+  "released_at":"2026-09-17",
+  "cache_bust":"0.21.0-collision-vegetation",
   "notes":[
-    "Evolução visual aplicada sobre a base estável v0.19 sem substituir a praça existente",
-    "Fachadas comerciais receberam pilastras, cornijas e faixas arquitetônicas para maior profundidade",
-    "Vitrines receberam molduras, vidro iluminado, prateleiras e silhuetas internas",
-    "Placas das lojas foram integradas visualmente às fachadas",
-    "Pavimentos superiores receberam janelas detalhadas, pequenas sacadas metálicas e vegetação",
-    "Adicionadas mesas de café laterais e placas de calçada para reduzir áreas vazias",
-    "Novos elementos físicos foram registrados no sistema de colisões",
-    "Mantidos fonte monumental, jardins, bancos v0.19, NPCs, pavimentação, A* e colisões existentes"
+    "Avatar recebeu raio físico maior e teste de colisão por distância nas quinas dos obstáculos",
+    "A navegação A* mantém bloqueio diagonal e agora considera uma margem corporal mais coerente",
+    "Reforçadas colisões de bancos, NPCs, postes, vasos, jardins e mobiliário da praça",
+    "Vegetação recebeu novas árvores orgânicas com troncos, galhos e múltiplos volumes de copa",
+    "Copas usam formas assimétricas, diferentes escalas, rotações e tons de verde",
+    "Adicionados grupos de arbustos irregulares com flores menores e variação de altura",
+    "Vegetação nova foi posicionada sem bloquear os principais corredores de circulação",
+    "Mantidos fonte monumental, fachadas, vitrines, bancos v0.19, pavimentação histórica e demais elementos da v0.20"
   ]
 }
