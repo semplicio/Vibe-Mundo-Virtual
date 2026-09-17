@@ -1,18 +1,19 @@
 {
-  "version":"0.21.0",
+  "version":"0.22.0",
   "name":"Vibe Mundo Virtual",
   "channel":"stable",
   "minimum_php":"8.1",
   "released_at":"2026-09-17",
-  "cache_bust":"0.21.0-collision-vegetation",
+  "cache_bust":"0.22.0-camera-navigation-performance",
   "notes":[
-    "Avatar recebeu raio físico maior e teste de colisão por distância nas quinas dos obstáculos",
-    "A navegação A* mantém bloqueio diagonal e agora considera uma margem corporal mais coerente",
-    "Reforçadas colisões de bancos, NPCs, postes, vasos, jardins e mobiliário da praça",
-    "Vegetação recebeu novas árvores orgânicas com troncos, galhos e múltiplos volumes de copa",
-    "Copas usam formas assimétricas, diferentes escalas, rotações e tons de verde",
-    "Adicionados grupos de arbustos irregulares com flores menores e variação de altura",
-    "Vegetação nova foi posicionada sem bloquear os principais corredores de circulação",
-    "Mantidos fonte monumental, fachadas, vitrines, bancos v0.19, pavimentação histórica e demais elementos da v0.20"
+    "Câmera reposicionada em eixo central atrás do avatar para reduzir a visualização diagonal",
+    "Câmera acompanha o avatar mantendo-o como referência central durante a navegação",
+    "Zoom interativo pela roda do mouse e botões de aproximar e afastar",
+    "Novo modo Visão geral afasta a câmera e centraliza a praça para localizar e escolher lojas",
+    "Novo modo Seguir cursor no desktop atualiza o destino do avatar conforme o mouse se move",
+    "Botão Centralizar retorna rapidamente à navegação normal do personagem",
+    "Paralelepípedos históricos convertidos de milhares de meshes para InstancedMesh, reduzindo drasticamente draw calls",
+    "Pixel ratio e resolução de sombras ajustados para melhorar fluidez sem remover elementos do cenário",
+    "Mantidos A*, colisões, vegetação v0.21, fonte, lojas, vitrines e demais elementos visuais"
   ]
 }
