@@ -1,19 +1,19 @@
 {
-  "version":"0.22.0",
+  "version":"0.23.0",
   "name":"Vibe Mundo Virtual",
   "channel":"stable",
   "minimum_php":"8.1",
   "released_at":"2026-09-17",
-  "cache_bust":"0.22.0-camera-navigation-performance",
+  "cache_bust":"0.23.0-immersive-navigation-light-plaza",
   "notes":[
-    "Câmera reposicionada em eixo central atrás do avatar para reduzir a visualização diagonal",
-    "Câmera acompanha o avatar mantendo-o como referência central durante a navegação",
-    "Zoom interativo pela roda do mouse e botões de aproximar e afastar",
-    "Novo modo Visão geral afasta a câmera e centraliza a praça para localizar e escolher lojas",
-    "Novo modo Seguir cursor no desktop atualiza o destino do avatar conforme o mouse se move",
-    "Botão Centralizar retorna rapidamente à navegação normal do personagem",
-    "Paralelepípedos históricos convertidos de milhares de meshes para InstancedMesh, reduzindo drasticamente draw calls",
-    "Pixel ratio e resolução de sombras ajustados para melhorar fluidez sem remover elementos do cenário",
-    "Mantidos A*, colisões, vegetação v0.21, fonte, lojas, vitrines e demais elementos visuais"
+    "Pavimentação da praça alterada de escura para pedra histórica clara e quente",
+    "Removidos os retângulos brancos artificiais dos caminhos da praça",
+    "Criado passeio central bege integrado visualmente à pavimentação",
+    "Removidos todos os bancos ao redor da fonte para liberar a composição e a circulação",
+    "Clique e arraste com o botão esquerdo faz o avatar perseguir continuamente o ponteiro do mouse",
+    "Clique simples continua definindo um destino normalmente",
+    "Câmera de exploração ficou mais baixa e próxima para aumentar a sensação de estar dentro do jogo",
+    "Zoom e modo Visão geral da v0.22 foram mantidos",
+    "Mantidas navegação A*, colisões, fonte, lojas, vegetação e otimizações de performance"
   ]
 }
