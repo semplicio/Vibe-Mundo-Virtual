@@ -1,16 +1,16 @@
 {
-  "version":"0.25.0",
+  "version":"0.26.0",
   "name":"Vibe Mundo Virtual",
   "channel":"stable",
   "minimum_php":"8.1",
   "released_at":"2026-09-19",
-  "cache_bust":"0.25.0-natural-stone-real-foliage",
+  "cache_bust":"0.26.0-commercial-rpg-district",
   "notes":[
-    "Grade preta do piso removida e substituída por pedra clara com textura e variação suave",
-    "Passeio central integrado ao mesmo acabamento natural da praça",
-    "Árvores refeitas com troncos, galhos e camadas de folhagem recortada",
-    "Arbustos refeitos com folhas irregulares em vez de bolas e cones geométricos",
-    "Vegetação continua agrupada em InstancedMesh para preservar a performance",
-    "Clique, arraste, zoom, visão geral, colisões, lojas, fonte e Super Admin preservados"
+    "Mapa transformado em distrito comercial com anel viário asfaltado, faixas e travessias",
+    "Calçadas, meios-fios e esquinas separam claramente ruas, praça e fachadas",
+    "Onze novas lojas formam quarteirões ao norte e nas laterais do mapa",
+    "Todas as lojas exibem placa ALUGA-SE, exceto a Loja JP aberta para teste",
+    "Vegetação anterior removida e substituída por arborização urbana discreta",
+    "Praça de pedra, fonte, navegação, zoom, visão geral e Super Admin preservados"
   ]
 }
