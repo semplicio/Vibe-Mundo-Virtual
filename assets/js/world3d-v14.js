@@ -6,9 +6,9 @@ const status=document.getElementById('status');
 const wait=setInterval(()=>{const world=window.__VIBE_WORLD__;if(!world)return;clearInterval(wait);buildHistoricGround(world);},180);
 
 function buildHistoricGround(world){
-  const stoneMat=new THREE.MeshStandardMaterial({color:0x817a70,roughness:.97,metalness:0});
-  const stoneAlt=new THREE.MeshStandardMaterial({color:0x948a7c,roughness:.96});
-  const mortar=new THREE.MeshStandardMaterial({color:0x5f5b55,roughness:1});
+  const stoneMat=new THREE.MeshStandardMaterial({color:0xc2b397,roughness:.97,metalness:0});
+  const stoneAlt=new THREE.MeshStandardMaterial({color:0xd0c2a7,roughness:.96});
+  const mortar=new THREE.MeshStandardMaterial({color:0xb8a98d,roughness:1});
   const curbMat=new THREE.MeshStandardMaterial({color:0xb8ad99,roughness:.94});
   const sidewalkMat=new THREE.MeshStandardMaterial({color:0xc8baa1,roughness:.96});
   const wood=new THREE.MeshStandardMaterial({color:0x74421f,roughness:.76});
@@ -17,20 +17,20 @@ function buildHistoricGround(world){
   // Base escura entre as pedras para dar profundidade às juntas.
   const base=new THREE.Mesh(new THREE.CircleGeometry(31.5,96),mortar);base.rotation.x=-Math.PI/2;base.position.set(0,.035,2);base.receiveShadow=true;world.add(base);
 
-  // Paralelepípedos individuais, levemente irregulares, formando a praça antiga.
-  const cobbles=new THREE.Group();cobbles.name='historicCobblestones';
-  const size=.72,gap=.09,extent=30;
+  // Um único lote instanciado evita criar milhares de Mesh/Geometry no carregamento.
+  const size=.72,gap=.09,extent=30,stones=[];
   for(let x=-extent;x<=extent;x+=size+gap){
     for(let z=-extent;z<=extent;z+=size+gap){
       const dx=x,dz=z-2;if(dx*dx+dz*dz>31*31)continue;
       // Mantém um pequeno respiro imediato sob a fonte para o acabamento circular existente.
       if(dx*dx+dz*dz<6.7*6.7)continue;
-      const g=new THREE.BoxGeometry(size*(.88+Math.random()*.12),.10,size*(.82+Math.random()*.15));
-      const p=new THREE.Mesh(g,Math.random()>.58?stoneAlt:stoneMat);
-      p.position.set(x+(Math.random()-.5)*.08,.09,z+(Math.random()-.5)*.08);
-      p.rotation.y=(Math.random()-.5)*.08;p.receiveShadow=true;cobbles.add(p);
+      stones.push([x+(Math.random()-.5)*.08,z+(Math.random()-.5)*.08,size*(.88+Math.random()*.12),size*(.82+Math.random()*.15),(Math.random()-.5)*.08,Math.random()>.58]);
     }
   }
+  const cobbleMat=new THREE.MeshStandardMaterial({color:0xffffff,roughness:.97,vertexColors:true});
+  const cobbles=new THREE.InstancedMesh(new THREE.BoxGeometry(1,.10,1),cobbleMat,stones.length);cobbles.name='historicCobblestonesInstanced';cobbles.receiveShadow=true;
+  const dummy=new THREE.Object3D(),color=new THREE.Color();stones.forEach((p,i)=>{dummy.position.set(p[0],.09,p[1]);dummy.rotation.set(0,p[4],0);dummy.scale.set(p[2],1,p[3]);dummy.updateMatrix();cobbles.setMatrixAt(i,dummy.matrix);cobbles.setColorAt(i,color.copy(p[5]?stoneAlt.color:stoneMat.color))});
+  cobbles.instanceMatrix.setUsage(THREE.StaticDrawUsage);cobbles.instanceMatrix.needsUpdate=true;if(cobbles.instanceColor)cobbles.instanceColor.needsUpdate=true;
   world.add(cobbles);
 
   // Faixa de calçada e meio-fio ao redor do núcleo da praça.

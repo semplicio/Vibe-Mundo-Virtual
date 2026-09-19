@@ -1,19 +1,18 @@
 {
-  "version":"0.23.0",
+  "version":"0.24.0",
   "name":"Vibe Mundo Virtual",
   "channel":"stable",
   "minimum_php":"8.1",
-  "released_at":"2026-09-17",
-  "cache_bust":"0.23.0-immersive-navigation-light-plaza",
+  "released_at":"2026-09-19",
+  "cache_bust":"0.24.0-instanced-vegetation-performance",
   "notes":[
-    "Pavimentação da praça alterada de escura para pedra histórica clara e quente",
-    "Removidos os retângulos brancos artificiais dos caminhos da praça",
-    "Criado passeio central bege integrado visualmente à pavimentação",
-    "Removidos todos os bancos ao redor da fonte para liberar a composição e a circulação",
-    "Clique e arraste com o botão esquerdo faz o avatar perseguir continuamente o ponteiro do mouse",
-    "Clique simples continua definindo um destino normalmente",
-    "Câmera de exploração ficou mais baixa e próxima para aumentar a sensação de estar dentro do jogo",
-    "Zoom e modo Visão geral da v0.22 foram mantidos",
-    "Mantidas navegação A*, colisões, fonte, lojas, vegetação e otimizações de performance"
+    "Vegetação reconstruída com InstancedMesh, geometrias e materiais compartilhados",
+    "Árvores e arbustos com variação natural de escala, rotação, volume e distribuição em canteiros",
+    "Vegetação procedural redundante das versões anteriores removida da cena",
+    "Paralelepípedos consolidados em um único lote e recursos antigos liberados da memória",
+    "Sombras, pixel ratio e luzes pontuais reduzidos para melhorar a fluidez",
+    "Cadeia da v0.24 evita os wrappers de renderização acumulados nas versões v0.22 e v0.23",
+    "Clique-arraste e seguir cursor limitam recálculos A* por tempo e distância do ponteiro",
+    "Clique simples, zoom, visão geral, colisões, lojas, fonte e Super Admin preservados"
   ]
 }
