@@ -1,18 +1,16 @@
 {
-  "version":"0.24.0",
+  "version":"0.25.0",
   "name":"Vibe Mundo Virtual",
   "channel":"stable",
   "minimum_php":"8.1",
   "released_at":"2026-09-19",
-  "cache_bust":"0.24.0-instanced-vegetation-performance",
+  "cache_bust":"0.25.0-natural-stone-real-foliage",
   "notes":[
-    "Vegetação reconstruída com InstancedMesh, geometrias e materiais compartilhados",
-    "Árvores e arbustos com variação natural de escala, rotação, volume e distribuição em canteiros",
-    "Vegetação procedural redundante das versões anteriores removida da cena",
-    "Paralelepípedos consolidados em um único lote e recursos antigos liberados da memória",
-    "Sombras, pixel ratio e luzes pontuais reduzidos para melhorar a fluidez",
-    "Cadeia da v0.24 evita os wrappers de renderização acumulados nas versões v0.22 e v0.23",
-    "Clique-arraste e seguir cursor limitam recálculos A* por tempo e distância do ponteiro",
-    "Clique simples, zoom, visão geral, colisões, lojas, fonte e Super Admin preservados"
+    "Grade preta do piso removida e substituída por pedra clara com textura e variação suave",
+    "Passeio central integrado ao mesmo acabamento natural da praça",
+    "Árvores refeitas com troncos, galhos e camadas de folhagem recortada",
+    "Arbustos refeitos com folhas irregulares em vez de bolas e cones geométricos",
+    "Vegetação continua agrupada em InstancedMesh para preservar a performance",
+    "Clique, arraste, zoom, visão geral, colisões, lojas, fonte e Super Admin preservados"
   ]
 }
