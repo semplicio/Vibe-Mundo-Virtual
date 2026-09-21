@@ -1,16 +1,16 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "name": "Vybe B&S E-commerce",
   "channel": "stable",
   "minimum_php": "8.1",
   "released_at": "2026-09-21",
-  "package_url": "https://github.com/semplicio/e-commerce/releases/download/v1.0.0/Vybe-BS-Hostinger-1.0.0.zip",
-  "sha256": "cc70af5d313b668452bacfcd0f74a44b6afed70180fea372d340dc0a999cc519",
+  "package_url": "https://github.com/semplicio/e-commerce/releases/download/v1.0.1/Vybe-BS-Hostinger-1.0.1.zip",
+  "sha256": "4dd910bb0bfad357269510d2161b2c330ec05247d6399cbddf084585ff26e574",
   "notes": [
-    "Base inicial do e-commerce Vybe B&S publicada no novo repositório",
-    "Provador virtual com avatar humano 3D masculino e feminino",
-    "Atualização segura pelo painel administrativo com validação SHA-256",
-    "Backup automático antes de cada instalação",
-    "Configuração do banco, uploads e dados locais preservados"
+    "Avatar 3D agora permanece em postura natural, com os braços relaxados",
+    "Animações de caminhada, corrida e pose partem da postura natural",
+    "Guarda-roupa substituído pelo inventário real do cliente",
+    "Produtos comprados e itens escolhidos para experimentar aparecem no provador",
+    "Seleção das peças do inventário é salva no perfil do avatar"
   ]
 }
