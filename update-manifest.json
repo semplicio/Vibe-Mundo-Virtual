@@ -1,16 +1,16 @@
 {
-  "version": "1.0.4",
+  "version": "1.0.5",
   "name": "Vybe B&S E-commerce",
   "channel": "stable",
   "minimum_php": "8.1",
   "released_at": "2026-09-21",
-  "package_url": "https://github.com/semplicio/e-commerce/releases/download/v1.0.4/Vybe-BS-Hostinger-1.0.4.zip",
-  "sha256": "b3993ddddf64460c31230b8552f5bebed54b875e94d5087409a8342efc848495",
+  "package_url": "https://github.com/semplicio/e-commerce/releases/download/v1.0.5/Vybe-BS-Hostinger-1.0.5.zip",
+  "sha256": "b57203a00bb46e33ad983a630d9f61657d20401901fc3e719bf3cc3d39be7727",
   "notes": [
-    "Inventário padrão com camiseta, calça, bermuda, chinelo, tênis e sapato",
-    "Bag transversal e bolsa de mão disponíveis para personalização",
-    "Acessórios padrão: óculos, relógio, anel, pulseira, boné, chapéu e touca",
-    "Itens padrão aparecem no avatar em 3D e podem ser removidos com um novo clique",
-    "Escolhas do inventário e tom de pele são restauradas ao abrir novamente o provador"
+    "Carregamento do avatar restaurado para um único arquivo compatível com a Hostinger",
+    "Texturas 3D reduzidas em aproximadamente 60% sem perda visual relevante",
+    "Cache de 30 dias habilitado para modelos, texturas e arquivos binários",
+    "Inventário padrão mantido com roupas, calçados, bolsas e acessórios",
+    "Correção da tela que permanecia carregando indefinidamente"
   ]
 }
